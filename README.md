@@ -1,4 +1,13 @@
-# README
+## YOWL
+
+A makers academy group project to create a restaurant review site learning to use ruby on rails.
+
+The Group:
+- [Tim Jones](https://github.com/timjones10)
+- [Canace Wong](https://github.com/CWongdabest)
+- [Christine Horrocks](https://github.com/Christine-horrocks)
+- [Alexis Carlier](https://github.com/alexiscarlier)
+- [Olivia Beresford](https://github.com/oliviaberesford)
 
 MVP USER STORIES
 
@@ -37,22 +46,19 @@ So that I can change my mind
 I can add edit or delete a review
 ```
 
-Things you may want to cover:
+# Specification:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Visitors can create new restaurants using a form, specifying a name and description
+- Restaurants can be edited and deleted
+- Visitors can leave reviews for restaurants, providing a numerical score (1-5) and a comment about their experience
+- The restaurants listings page should display all the reviews, along with the average rating of each restaurant
+- Validations should be in place for the restaurant and review forms - restaurants must be given a name and rating, reviews must be given a rating from 1-5 (comment is optional)
+- Users can register/login
+- Some indication should be given on the page (as part of the layout) whether the user is currently logged in, along with links to the available actions (i.e. Logout/Edit account is signed in, otherwise Sign In/Sign Up)
+- The email address of the reviewer should be displayed as part of the review
+- (Optional -) Users can't review a restaurant which they created
+- (Optional -) Users can log in through Facebook, Twitter, Github or another external service
+- A user must be logged in to create restaurants
+- Users can only edit/delete restaurants which they've created
+- Users can only leave one review per restaurant
+- Users can delete their own reviews
